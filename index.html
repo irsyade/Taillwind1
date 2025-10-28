@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Irsyad Rama</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/847/847969.png">
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- NAVBAR -->
+  <nav class="fixed w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+    <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+      <h1 class="text-2xl font-bold text-indigo-600">Irsyad<span class="text-gray-900">Rama</span></h1>
+      <ul class="flex space-x-6 text-gray-700 font-medium">
+        <li><a href="#home" class="hover:text-indigo-600 transition">Home</a></li>
+        <li><a href="#profile" class="hover:text-indigo-600 transition">My Profile</a></li>
+        <li><a href="#about" class="hover:text-indigo-600 transition">About</a></li>
+        <li><a href="#contact" class="hover:text-indigo-600 transition">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-indigo-50 to-white pt-20">
+    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">Hi, I'm <span class="text-indigo-600">Irsyad Rama</span></h2>
+    <p class="text-lg text-gray-600 max-w-2xl mb-6 px-4">
+      A passionate Web Developer who loves creating modern, responsive, and beautiful websites with clean code.
+    </p>
+    <a href="#contact" class="bg-indigo-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-indigo-700 transition">
+      Contact Me
+    </a>
+  </section>
+
+  <!-- PROFILE SECTION -->
+<section id="profile" class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold text-gray-900 mb-12">My Skill</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- HTML -->
+      <div class="p-6 bg-indigo-50 rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-indigo-700 mb-3">HTML Mastery</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Mampu membangun struktur website yang rapi, semantik, dan mudah dibaca.  
+          Terbiasa membuat layout yang clean dan siap diintegrasikan dengan framework CSS modern.
+        </p>
+      </div>
+
+      <!-- CSS -->
+      <div class="p-6 bg-indigo-50 rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-indigo-700 mb-3">CSS Styling</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Menguasai teknik styling modern seperti Flexbox, Grid, animasi, dan responsive design.  
+          Fokus pada tampilan yang elegan, rapi, dan mudah diakses di semua perangkat.
+        </p>
+      </div>
+
+      <!-- TailwindCSS -->
+      <div class="p-6 bg-indigo-50 rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-indigo-700 mb-3">TailwindCSS Expert</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Berpengalaman membuat antarmuka modern dan efisien menggunakan TailwindCSS.  
+          Cepat dalam membuat desain konsisten, dengan utility-first approach yang powerful.
+        </p>
+      </div>
+
+    </div>
+
+    <p class="text-gray-600 mt-12 max-w-3xl mx-auto leading-relaxed">
+      Saya fokus mengembangkan keahlian front-end dengan pendekatan <span class="text-indigo-600 font-semibold">clean code</span>  
+      dan <span class="text-indigo-600 font-semibold">responsive design</span> agar website terlihat menarik dan profesional di semua ukuran layar.
+    </p>
+  </div>
+</section>
+
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-20 bg-gradient-to-r from-indigo-50 to-white">
+    <div class="max-w-5xl mx-auto px-6 md:flex items-center gap-10">
+      <!-- FOTO PROFIL -->
+      <img src="assets/Gambar WhatsApp 2025-09-24 pukul 00.57.10_0a0f4a38.jpg" alt="Profile" class="w-64 h-64 object-cover rounded-3xl shadow-lg mx-auto md:mx-0 mb-8 md:mb-0 border-4 border-indigo-200">
+      
+      <div>
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">About Me</h2>
+        <p class="text-gray-600 leading-relaxed mb-4">
+          I'm a student at <span class="font-semibold text-indigo-600">Politeknik IDN</span> who loves coding and building creative projects.
+          I specialize in full-stack development using Laravel and TailwindCSS.
+        </p>
+        <p class="text-gray-600 mb-4">
+          I enjoy turning ideas into reality through code, and I’m always learning new technologies to improve my skills.
+        </p>
+        <a href="#contact" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-indigo-700 transition">Hire Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-gray-900 mb-10">Contact Me</h2>
+      <form class="space-y-6">
+        <div class="grid md:grid-cols-2 gap-6">
+          <input type="text" placeholder="Your Name" class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+          <input type="email" placeholder="Your Email" class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        </div>
+        <textarea rows="5" placeholder="Your Message" class="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+        <button type="submit" class="bg-indigo-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-indigo-700 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-indigo-600 text-white text-center py-6 mt-20">
+    <p>© 2025 Irsyad Rama — All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
